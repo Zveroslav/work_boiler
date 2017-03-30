@@ -1,6 +1,22 @@
 $margin: 16px
 $fontSize: 14px
+$blue: blue
+$thPadding: 3px 10px
+$blockCenter: 0 auto
+$block75: 75%
+$marginDividerTop: 20px 
 
+th, td 
+	padding: $thPadding
+	text-align: center
+.alert-block
+	height: 30px
+.main-tabel
+	margin: $blockCenter
+	width: $block75
+	margin-top: $marginDividerTop
+.allWidth
+	width: 100%
 .content
 	border: 1px solid $blue
 	color: darken($blue, 20%)
@@ -9,3 +25,6 @@ $fontSize: 14px
 	padding: $margin / 2
 	margin: $margin / 2
 	border-color: $blue
+a 
+    display: flex
+

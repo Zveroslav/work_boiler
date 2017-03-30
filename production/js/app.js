@@ -1,0 +1,1 @@
+"use strict";var testApp=angular.module("testApp",[]);testApp.controller("addRow",function(a,t){a.submitData=function(){if(a.addData.$valid){var e={firstName:a.addData.firstName.$viewValue,lastName:a.addData.lastName.$viewValue,position:a.addData.position.$viewValue};t.data.push(e)}}});

@@ -23,7 +23,10 @@
   "homepage": "https://github.com/Zveroslav/boot#readme",
   "devDependencies": {
     "browser-sync": "^2.18.7",
+    "gulp-concat": "^2.6.1",
     "gulp-notify": "^3.0.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "install": "^0.8.7",
+    "npm": "^4.4.1"
   }
 }
